@@ -23,6 +23,7 @@ public class InterpreterTest {
 			inpr.runCode( ">++++++++[<+++"
 						+ "+++++>-]<+++++"
 						+ "++.--..++++++.");
+			inpr.runCode(",.,.,.");
 		} catch (InterpreterException | IOException e) {
 			e.printStackTrace();
 		}
